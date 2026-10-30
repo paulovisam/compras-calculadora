@@ -165,6 +165,42 @@ export default function Current({ onSaved }: { onSaved: () => void }) {
         onConfirm={clearCurrent}
         onClose={() => setClearOpen(false)}
       />
+
+      <section aria-labelledby="guide-title" className="mt-8 rounded-2xl border border-slate-200 bg-white p-4 text-slate-700 shadow-sm">
+        <h2 id="guide-title" className="mb-2 text-base font-bold text-slate-900">
+          Calculadora de Compras de Supermercado
+        </h2>
+        <p className="mb-3 text-xs leading-relaxed text-slate-600">
+          Some os produtos no carrinho em tempo real pelo celular para manter o controle dos gastos e evitar surpresas no caixa.
+        </p>
+
+        <div className="space-y-2 border-t border-slate-100 pt-3 text-xs">
+          <details className="group cursor-pointer">
+            <summary className="font-semibold text-slate-800 hover:text-emerald-700">
+              Como usar a calculadora no mercado?
+            </summary>
+            <p className="mt-1 pl-2 leading-relaxed text-slate-600">
+              Ao colocar um item no carrinho, informe o nome, preço unitário e quantidade. O valor total é somado instantaneamente no topo.
+            </p>
+          </details>
+          <details className="group cursor-pointer">
+            <summary className="font-semibold text-slate-800 hover:text-emerald-700">
+              Onde meus dados são salvos?
+            </summary>
+            <p className="mt-1 pl-2 leading-relaxed text-slate-600">
+              Seus registros ficam salvos com total privacidade no armazenamento local do seu próprio aparelho, funcionando mesmo sem internet.
+            </p>
+          </details>
+          <details className="group cursor-pointer">
+            <summary className="font-semibold text-slate-800 hover:text-emerald-700">
+              Como comparar preços entre supermercados?
+            </summary>
+            <p className="mt-1 pl-2 leading-relaxed text-slate-600">
+              Ao concluir a compra, clique em &quot;Salvar compra&quot; e selecione o supermercado. Na aba &quot;Preços&quot;, você pode consultar onde cada item esteve mais barato.
+            </p>
+          </details>
+        </div>
+      </section>
     </div>
   )
 }

@@ -4,13 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#047857" />
-    <meta name="description" content="Calculadora de compras de supermercado: some itens, salve suas compras e compare preços ao longo do tempo." />
+    <title>Calculadora de Supermercado Online: Some suas Compras no Mercado</title>
+    <meta
+      name="description"
+      content="Calculadora de compras de supermercado online e gratuita. Some produtos no carrinho em tempo real, evite surpresas no caixa e compare preços entre mercados."
+    />
+    <link rel="canonical" href="https://calculadora-compras-supermercado.vercel.app/" />
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="https://calculadora-compras-supermercado.vercel.app/" />
+    <meta property="og:title" content="Calculadora de Supermercado Online: Some suas Compras no Mercado" />
+    <meta
+      property="og:description"
+      content="Some produtos no carrinho em tempo real pelo celular, controle seu orçamento e compare preços entre supermercados."
+    />
+    <meta property="og:image" content="https://calculadora-compras-supermercado.vercel.app/icon.svg" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Calculadora de Supermercado Online: Some suas Compras no Mercado" />
+    <meta
+      name="twitter:description"
+      content="Some produtos no carrinho em tempo real pelo celular, controle seu orçamento e compare preços entre supermercados."
+    />
+    <meta name="twitter:image" content="https://calculadora-compras-supermercado.vercel.app/icon.svg" />
+
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <title>Calculadora de Compras</title>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "@id": "https://calculadora-compras-supermercado.vercel.app/#app",
+            "name": "Calculadora de Compras de Supermercado",
+            "url": "https://calculadora-compras-supermercado.vercel.app/",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "All",
+            "browserRequirements": "Requires JavaScript. Requires HTML5.",
+            "description": "Aplicativo web gratuito para somar itens de supermercado no carrinho em tempo real, acompanhar o valor total e comparar preços entre mercados.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "BRL"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://calculadora-compras-supermercado.vercel.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Como usar a calculadora de compras no supermercado?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ao colocar um produto no carrinho físico, informe o nome do item, o preço unitário e a quantidade. A calculadora soma o total automaticamente no topo da tela para você não ter surpresas no caixa."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "A calculadora funciona offline no celular?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim! A calculadora é um aplicativo web progressivo (PWA) e armazena todos os seus dados e histórico localmente no navegador do seu próprio aparelho celular."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Como comparar preços entre supermercados?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Após finalizar as compras, salve o registro informando o nome do supermercado. Na aba Preços, o app monta o comparativo e exibe onde cada item esteve mais barato ao longo do tempo."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <header style="padding: 24px; text-align: center; font-family: system-ui, -apple-system, sans-serif;">
+        <h1 style="font-size: 1.5rem; color: #047857; margin-bottom: 8px;">Calculadora de Compras de Supermercado</h1>
+        <p style="color: #475569; max-width: 480px; margin: 0 auto; line-height: 1.5;">
+          Some produtos no carrinho em tempo real pelo celular, acompanhe o valor total antes de chegar ao caixa e compare o histórico de preços entre mercados.
+        </p>
+      </header>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
