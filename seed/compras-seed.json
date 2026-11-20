@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "exportedAt": "2026-11-20T20:00:00.000Z",
+  "current": [
+    { "id": "c-arroz", "name": "Arroz tipo 1 5kg", "price": 24.9, "quantity": 1 },
+    { "id": "c-leite", "name": "Leite integral 1L", "price": 5.99, "quantity": 6 },
+    { "id": "c-banana", "name": "Banana prata kg", "price": 6.49, "quantity": 1.2 },
+    { "id": "c-ovos", "name": "Ovos brancos 12un", "price": 14.5, "quantity": 1 }
+  ],
+  "sessions": [
+    {
+      "id": "s-2026-08-15-atacadao",
+      "supermarket": "Atacadão",
+      "date": "2026-08-15",
+      "createdAt": 1755270000000,
+      "items": [
+        { "id": "i-0815-arroz", "name": "Arroz tipo 1 5kg", "price": 22.9, "quantity": 2 },
+        { "id": "i-0815-feijao", "name": "Feijão carioca 1kg", "price": 7.49, "quantity": 2 },
+        { "id": "i-0815-leite", "name": "Leite integral 1L", "price": 5.49, "quantity": 12 },
+        { "id": "i-0815-oleo", "name": "Óleo de soja 900ml", "price": 6.29, "quantity": 3 },
+        { "id": "i-0815-cafe", "name": "Café torrado 500g", "price": 18.9, "quantity": 2 },
+        { "id": "i-0815-acucar", "name": "Açúcar cristal 1kg", "price": 4.19, "quantity": 2 },
+        { "id": "i-0815-macarrao", "name": "Macarrão espaguete 500g", "price": 3.49, "quantity": 4 },
+        { "id": "i-0815-ovos", "name": "Ovos brancos 12un", "price": 12.9, "quantity": 2 },
+        { "id": "i-0815-frango", "name": "Frango congelado kg", "price": 11.9, "quantity": 3 },
+        { "id": "i-0815-papel", "name": "Papel higiênico 12 rolos", "price": 18.5, "quantity": 1 }
+      ]
+    },
+    {
+      "id": "s-2026-09-02-extra",
+      "supermarket": "Extra",
+      "date": "2026-09-02",
+      "createdAt": 1756825200000,
+      "items": [
+        { "id": "i-0902-arroz", "name": "Arroz tipo 1 5kg", "price": 26.9, "quantity": 1 },
+        { "id": "i-0902-feijao", "name": "Feijão carioca 1kg", "price": 8.99, "quantity": 1 },
+        { "id": "i-0902-leite", "name": "Leite integral 1L", "price": 6.29, "quantity": 6 },
+        { "id": "i-0902-oleo", "name": "Óleo de soja 900ml", "price": 7.49, "quantity": 2 },
+        { "id": "i-0902-cafe", "name": "Café torrado 500g", "price": 22.5, "quantity": 1 },
+        { "id": "i-0902-macarrao", "name": "Macarrão espaguete 500g", "price": 4.29, "quantity": 3 },
+        { "id": "i-0902-ovos", "name": "Ovos brancos 12un", "price": 15.9, "quantity": 1 },
+        { "id": "i-0902-banana", "name": "Banana prata kg", "price": 6.99, "quantity": 1.5 },
+        { "id": "i-0902-tomate", "name": "Tomate kg", "price": 7.49, "quantity": 1 },
+        { "id": "i-0902-pao", "name": "Pão de forma 500g", "price": 8.49, "quantity": 1 },
+        { "id": "i-0902-sabao", "name": "Sabão em pó 1kg", "price": 12.9, "quantity": 1 }
+      ]
+    },
+    {
+      "id": "s-2026-09-20-pao",
+      "supermarket": "Pão de Açúcar",
+      "date": "2026-09-20",
+      "createdAt": 1758380400000,
+      "items": [
+        { "id": "i-0920-arroz", "name": "Arroz tipo 1 5kg", "price": 31.9, "quantity": 1 },
+        { "id": "i-0920-feijao", "name": "Feijão carioca 1kg", "price": 10.9, "quantity": 1 },
+        { "id": "i-0920-leite", "name": "Leite integral 1L", "price": 7.49, "quantity": 4 },
+        { "id": "i-0920-cafe", "name": "Café torrado 500g", "price": 27.9, "quantity": 1 },
+        { "id": "i-0920-ovos", "name": "Ovos brancos 12un", "price": 17.9, "quantity": 1 },
+        { "id": "i-0920-banana", "name": "Banana prata kg", "price": 8.49, "quantity": 0.8 },
+        { "id": "i-0920-queijo", "name": "Queijo mussarela kg", "price": 54.9, "quantity": 0.4 },
+        { "id": "i-0920-iogurte", "name": "Iogurte natural 170g", "price": 3.29, "quantity": 4 },
+        { "id": "i-0920-detergente", "name": "Detergente 500ml", "price": 2.79, "quantity": 3 }
+      ]
+    },
+    {
+      "id": "s-2026-10-04-assai",
+      "supermarket": "Assaí",
+      "date": "2026-10-04",
+      "createdAt": 1759590000000,
+      "items": [
+        { "id": "i-1004-arroz", "name": "Arroz tipo 1 5kg", "price": 23.5, "quantity": 2 },
+        { "id": "i-1004-feijao", "name": "Feijão carioca 1kg", "price": 7.99, "quantity": 3 },
+        { "id": "i-1004-leite", "name": "Leite integral 1L", "price": 5.79, "quantity": 12 },
+        { "id": "i-1004-oleo", "name": "Óleo de soja 900ml", "price": 6.79, "quantity": 4 },
+        { "id": "i-1004-cafe", "name": "Café torrado 500g", "price": 19.9, "quantity": 2 },
+        { "id": "i-1004-acucar", "name": "Açúcar cristal 1kg", "price": 4.49, "quantity": 2 },
+        { "id": "i-1004-macarrao", "name": "Macarrão espaguete 500g", "price": 3.69, "quantity": 6 },
+        { "id": "i-1004-ovos", "name": "Ovos brancos 12un", "price": 13.5, "quantity": 2 },
+        { "id": "i-1004-frango", "name": "Frango congelado kg", "price": 12.5, "quantity": 4 },
+        { "id": "i-1004-papel", "name": "Papel higiênico 12 rolos", "price": 19.9, "quantity": 2 },
+        { "id": "i-1004-sabao", "name": "Sabão em pó 1kg", "price": 10.9, "quantity": 2 }
+      ]
+    },
+    {
+      "id": "s-2026-10-18-extra",
+      "supermarket": "Extra",
+      "date": "2026-10-18",
+      "createdAt": 1760799600000,
+      "items": [
+        { "id": "i-1018-arroz", "name": "Arroz tipo 1 5kg", "price": 27.5, "quantity": 1 },
+        { "id": "i-1018-feijao", "name": "Feijão carioca 1kg", "price": 9.49, "quantity": 2 },
+        { "id": "i-1018-leite", "name": "Leite integral 1L", "price": 6.49, "quantity": 8 },
+        { "id": "i-1018-oleo", "name": "Óleo de soja 900ml", "price": 7.99, "quantity": 2 },
+        { "id": "i-1018-cafe", "name": "Café torrado 500g", "price": 23.9, "quantity": 1 },
+        { "id": "i-1018-acucar", "name": "Açúcar cristal 1kg", "price": 4.99, "quantity": 1 },
+        { "id": "i-1018-macarrao", "name": "Macarrão espaguete 500g", "price": 4.49, "quantity": 2 },
+        { "id": "i-1018-banana", "name": "Banana prata kg", "price": 7.29, "quantity": 1.8 },
+        { "id": "i-1018-tomate", "name": "Tomate kg", "price": 8.9, "quantity": 1.2 },
+        { "id": "i-1018-queijo", "name": "Queijo mussarela kg", "price": 48.9, "quantity": 0.5 }
+      ]
+    },
+    {
+      "id": "s-2026-11-01-atacadao",
+      "supermarket": "Atacadão",
+      "date": "2026-11-01",
+      "createdAt": 1762009200000,
+      "items": [
+        { "id": "i-1101-arroz", "name": "Arroz tipo 1 5kg", "price": 24.5, "quantity": 2 },
+        { "id": "i-1101-feijao", "name": "Feijão carioca 1kg", "price": 8.29, "quantity": 2 },
+        { "id": "i-1101-leite", "name": "Leite integral 1L", "price": 5.89, "quantity": 12 },
+        { "id": "i-1101-oleo", "name": "Óleo de soja 900ml", "price": 6.99, "quantity": 3 },
+        { "id": "i-1101-cafe", "name": "Café torrado 500g", "price": 21.5, "quantity": 2 },
+        { "id": "i-1101-acucar", "name": "Açúcar cristal 1kg", "price": 4.59, "quantity": 3 },
+        { "id": "i-1101-macarrao", "name": "Macarrão espaguete 500g", "price": 3.79, "quantity": 5 },
+        { "id": "i-1101-ovos", "name": "Ovos brancos 12un", "price": 14.2, "quantity": 2 },
+        { "id": "i-1101-frango", "name": "Frango congelado kg", "price": 13.4, "quantity": 3 },
+        { "id": "i-1101-papel", "name": "Papel higiênico 12 rolos", "price": 20.9, "quantity": 1 },
+        { "id": "i-1101-sabao", "name": "Sabão em pó 1kg", "price": 11.5, "quantity": 1 },
+        { "id": "i-1101-detergente", "name": "Detergente 500ml", "price": 1.99, "quantity": 6 }
+      ]
+    },
+    {
+      "id": "s-2026-11-12-pao",
+      "supermarket": "Pão de Açúcar",
+      "date": "2026-11-12",
+      "createdAt": 1762963200000,
+      "items": [
+        { "id": "i-1112-leite", "name": "Leite integral 1L", "price": 7.29, "quantity": 4 },
+        { "id": "i-1112-cafe", "name": "Café torrado 500g", "price": 26.5, "quantity": 1 },
+        { "id": "i-1112-ovos", "name": "Ovos brancos 12un", "price": 16.9, "quantity": 1 },
+        { "id": "i-1112-banana", "name": "Banana prata kg", "price": 7.9, "quantity": 1 },
+        { "id": "i-1112-tomate", "name": "Tomate kg", "price": 11.9, "quantity": 0.6 },
+        { "id": "i-1112-queijo", "name": "Queijo mussarela kg", "price": 52.9, "quantity": 0.35 },
+        { "id": "i-1112-pao", "name": "Pão de forma 500g", "price": 9.9, "quantity": 1 },
+        { "id": "i-1112-iogurte", "name": "Iogurte natural 170g", "price": 3.49, "quantity": 6 }
+      ]
+    }
+  ]
+}

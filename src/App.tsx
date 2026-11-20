@@ -2,6 +2,7 @@ import { lazy, Suspense, useState, type ReactNode } from 'react'
 import { storageAvailable } from './lib/storage'
 import { useStore } from './store'
 import Current from './pages/Current'
+import { InstallPrompt } from './components/InstallPrompt'
 import { Onboarding } from './components/Onboarding'
 import { CartIcon, ChartIcon, HistoryIcon } from './components/icons'
 
@@ -72,6 +73,7 @@ export default function App() {
       </nav>
 
       {!onboarded && <Onboarding onDone={finishOnboarding} />}
+      <InstallPrompt enabled={onboarded} />
     </div>
   )
 }
