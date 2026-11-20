@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
+import type { BackupFile } from './lib/backup'
 import { safeStorage } from './lib/storage'
 import { uid } from './lib/format'
 import { track } from './lib/analytics'
@@ -37,6 +38,7 @@ interface State {
   saveSession: (supermarket: string, date: string) => void
   updateSession: (id: string, patch: Partial<Pick<Session, 'supermarket' | 'date'>>) => void
   deleteSession: (id: string) => void
+  replaceBackup: (backup: Pick<BackupFile, 'current' | 'sessions'>) => void
   finishOnboarding: () => void
 }
 
@@ -89,6 +91,8 @@ export const useStore = create<State>()(
         set((s) => ({ sessions: s.sessions.map((x) => (x.id === id ? { ...x, ...patch } : x)) })),
 
       deleteSession: (id) => set((s) => ({ sessions: s.sessions.filter((x) => x.id !== id) })),
+
+      replaceBackup: ({ current, sessions }) => set({ current, sessions }),
 
       finishOnboarding: () => set({ onboarded: true }),
     }),
