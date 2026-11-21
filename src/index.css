@@ -11,4 +11,8 @@ body {
 }
 input, select, button { font-size: 16px; } /* evita zoom no iOS */
 .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+.modal-pad {
+  padding: 1.75rem;
+  padding-bottom: max(1.75rem, env(safe-area-inset-bottom));
+}
 .tabular { font-variant-numeric: tabular-nums; }

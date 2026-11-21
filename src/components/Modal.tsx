@@ -41,8 +41,9 @@ export function Modal({ open, onClose, title, children }: Props) {
     document.addEventListener('keydown', onKey)
     document.body.style.overflow = 'hidden'
     requestAnimationFrame(() => {
-      const target = panelRef.current?.querySelector<HTMLElement>('[autofocus], input, button')
-      target?.focus()
+      const preferred = panelRef.current?.querySelector<HTMLElement>('[autofocus]')
+      const fallback = panelRef.current?.querySelector<HTMLElement>('input, button')
+      ;(preferred ?? fallback)?.focus()
     })
     return () => {
       document.removeEventListener('keydown', onKey)
@@ -67,7 +68,7 @@ export function Modal({ open, onClose, title, children }: Props) {
             role="dialog"
             aria-modal="true"
             aria-labelledby={titleId}
-            className="pb-safe relative w-full max-w-lg rounded-t-3xl bg-white p-5 shadow-xl sm:rounded-3xl"
+            className="modal-pad relative w-full max-w-lg rounded-t-3xl bg-white shadow-xl sm:rounded-3xl"
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
@@ -77,7 +78,7 @@ export function Modal({ open, onClose, title, children }: Props) {
               <h2 id={titleId} className="text-lg font-bold">
                 {title}
               </h2>
-              <IconButton label="Fechar" onClick={onClose} className="-mr-2">
+              <IconButton label="Fechar" onClick={onClose}>
                 <CloseIcon />
               </IconButton>
             </div>
